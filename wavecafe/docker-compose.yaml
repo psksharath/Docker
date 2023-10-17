@@ -1,0 +1,12 @@
+version: '3'
+services:
+  website: 
+    image: saitejairrinki/wavecafe:v1
+    ports:
+      - "8085:80"
+
+  website2: 
+    image: jenkins/jenkins
+    ports:
+      - "8086:8080"
+
